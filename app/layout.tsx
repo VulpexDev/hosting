@@ -6,7 +6,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'admin-lte/dist/css/adminlte.min.css';
 import '../styles/globals.css';
 
-
+// 
 import { useEffect } from 'react';
 
 export default function RootLayout({ children }) {

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/layout.tsx"],"sourcesContent":["// app/layout.tsx\r\n\"use client\";\r\n\r\nimport 'bootstrap/dist/css/bootstrap.min.css';\r\nimport '@fortawesome/fontawesome-free/css/all.min.css';\r\nimport 'admin-lte/dist/css/adminlte.min.css';\r\nimport '../styles/globals.css';\r\n\r\n\r\nimport { useEffect } from 'react';\r\n\r\nexport default function RootLayout({ children }) {\r\n  useEffect(() => {\r\n    import('admin-lte/plugins/jquery/jquery.min.js');\r\n    import('admin-lte/plugins/bootstrap/js/bootstrap.bundle.min.js');\r\n    import('admin-lte/dist/js/adminlte.min.js');\r\n  }, []);\r\n\r\n  return (\r\n    <html lang=\"en\">\r\n      <head>\r\n        <title>Planeta Prescolar</title>\r\n        <link data-n-head=\"1\" rel=\"icon\" type=\"image/x-icon\" href=\"https://planetapreescolar.com//favicon.ico\"></link>\r\n      </head>\r\n      <body>{children}</body>\r\n    </html>\r\n  );\r\n}\r\n"],"names":[],"mappings":"AAAA,iBAAiB;;;;;;;;;AACjB;;;;;;AAUe,SAAS,WAAW,EAAE,QAAQ,EAAE;;IAC7C,CAAA,GAAA,6JAAA,CAAA,YAAS,AAAD,EAAE;;;;IAIV,GAAG,EAAE;IAEL,qBACE,6LAAC;QAAK,MAAK;;0BACT,6LAAC;;kCACC,6LAAC;kCAAM;;;;;;kCACP,6LAAC;wBAAK,eAAY;wBAAI,KAAI;wBAAO,MAAK;wBAAe,MAAK;;;;;;;;;;;;0BAE5D,6LAAC;0BAAM;;;;;;;;;;;;AAGb;GAhBwB;KAAA"}},
+    {"offset": {"line": 73, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
