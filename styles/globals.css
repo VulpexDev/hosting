@@ -1,0 +1,79 @@
+/* Añade tus estilos globales aquí */
+body {
+    font-family: 'Arial', sans-serif; 
+     /* Añade tus estilos globales aquí */
+  }
+  .content-wrapper {
+    background-image: url(https://planetapreescolar.com/fondo/fondomorado.png);
+
+  }
+
+  .navbar-white {
+    background-color:  #3d1e55 !important;    
+    color:  #3d1e55 !important;;
+
+  }
+
+  .wrapper .content-wrapper{
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+
+  .main-header {
+    border-bottom: 0px solid #dee2e6;
+    z-index: 1034;
+  }
+
+
+  #aside {
+    background-color: #3d1e55 !important;
+  }
+
+  
+  .bg-info {
+    background-color: #3d1e55 !important;
+  }
+  
+  .bg-infoSeccion {
+    background-color: white !important;
+  }
+
+  #inner  {
+    text-align: center;
+  }
+
+  .rounded-image {
+    width: 100px !important; /* Ajusta el tamaño según sea necesario */
+    height: 100px !important; /* Ajusta el tamaño según sea necesario */
+
+    
+}
+
+.btn-custom {
+  background-color: rgb(94, 160, 197);
+  border-color: rgb(94, 160, 197);
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: rgb(114, 188, 215); /* Color ligeramente más claro */
+  border-color: rgb(114, 188, 215);
+}
+
+.btn-custom i {
+  margin-right: 8px; /* Espacio entre el ícono y el texto */
+}
+
+#sectionCards{
+  margin-top: 45px;
+}
+
